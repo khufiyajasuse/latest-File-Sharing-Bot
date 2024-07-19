@@ -29,7 +29,7 @@ PORT = os.environ.get("PORT", "8080")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://ashwinimalaysian:5gRvQgPW4DRhlEpE@pehla.uuzwevb.mongodb.net/?retryWrites=true&w=majority&appName=pehla")
-DB_NAME = os.environ.get("DATABASE_NAME", "ashwinimalaysian")
+DB_NAME = os.environ.get("DATABASE_NAME", "pehla")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
